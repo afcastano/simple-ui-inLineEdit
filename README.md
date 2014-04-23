@@ -3,6 +3,7 @@ Angular-InLineEdit
 
 In line edition directive for Angular Js.
 
-- Pending: Example
+
+- Pending: Example and demo
 - Pending: Dependencies
 - Pending: Other projects
