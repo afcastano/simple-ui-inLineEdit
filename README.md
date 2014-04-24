@@ -4,9 +4,19 @@ Angular-InLineEdit
 Simple In line edition directive for Angular Js. Keyboard edition and tab support. 
 The style of the components can be easily defined.
 
-Pending: Minimize
+Check the demo: http://afcastano.github.io/Angular-InLineEdit/demo/index.html
 
-- Pending: Example and demo
+This is the code with the in line editable feature:
+```html
+<table>
+	<tr ng-repeat="item in items">
+		<td in-line-editable ng-model="item" model-att="name"></td>
+		<td in-line-editable ng-model="item" model-att="value" display-filter="currency" s-numbers-only="true"></td>
+	</tr>
+</table>
+```
+
+- Pending: Minimize
 - Pending: Dependencies
 
 Other projects
