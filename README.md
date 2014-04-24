@@ -16,6 +16,8 @@ This is the code with the in line editable feature:
 </table>
 ```
 
+- Pending: Detailed description.
+- Pending: Example with date-picker
 - Pending: Minimize
 - Pending: Dependencies
 
