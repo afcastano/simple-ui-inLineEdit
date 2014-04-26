@@ -1,4 +1,4 @@
-angular.module('inLineEdit', [])
+angular.module('simple.ui.inLineEdit', [])
 .directive('inLineEditable', function($timeout) {
 
 
