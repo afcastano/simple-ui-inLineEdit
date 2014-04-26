@@ -1,12 +1,17 @@
-Angular-InLineEdit
-==================
+simple-ui-inLineEdit
+====================
 
 Simple In line edition directive for Angular Js. Keyboard edition and tab support. 
 The style of the components can be easily defined.
 
 Check the demo: http://afcastano.github.io/Angular-InLineEdit/demo/index.html
 
-This is the code with the in line editable feature:
+Include the module <code>simple.ui.inLineEdit</code> on your application.
+```javascript
+var app = angular.module('demoApp', ['simple.ui.inLineEdit']);
+```
+
+An then use the attribute <code>in-line-editable</code> in your templates like this:
 ```html
 <table>
 	<tr ng-repeat="item in items">

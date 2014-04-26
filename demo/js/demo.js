@@ -1,4 +1,4 @@
-var app = angular.module('demoApp', ['inLineEdit'])
+var app = angular.module('demoApp', ['simple.ui.inLineEdit'])
 .controller('inlineEditController', function($scope) {
 
 	$scope.addHundred = function(){
