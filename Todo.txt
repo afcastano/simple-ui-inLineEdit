@@ -1,0 +1,5 @@
+General
+=============
+
++ Improve styles of demo
+	+ Make input same size as td
