@@ -1,5 +1,5 @@
-simple-ui-inLineEdit
-====================
+Angular Inline Edit Directive
+==============================
 
 Simple In line edition directive for Angular Js. Keyboard edition and tab support. 
 The style of the components can be easily defined.
@@ -30,3 +30,6 @@ Other projects
 ==============
 
 - XEditable: http://vitalets.github.io/angular-xeditable/ Very good and complete. It uses buttons to accept changes. It is possible not to use them but it doesn't work completely fine. It creates hyperlinks for the editable values.
+- Angular-inlineEdit: http://ngmodules.org/modules/Angular-InlineEdit Also very good, doesn't provide callbacks when the object is modified.
+- Bower angular edit inline: https://github.com/m-a-t-t/bower-angular-edit-inline Haven't tried it yet
+
