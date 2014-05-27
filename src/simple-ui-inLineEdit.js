@@ -150,11 +150,17 @@ angular.module('simple.ui.inLineEdit', [])
 						}
 					});
 
-					element.on('click', function() {
+					var clickFunction = function() {
 						if (!$scope.editMode) {
 							toEditMode();
 						}
-					});
+					}
+
+					if(attrs.editOnDoubleclick !== undefined){
+						element.on('dblclick', clickFunction);
+					}else{
+						element.on('click', clickFunction);
+					}
 
 
 				}
