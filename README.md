@@ -21,7 +21,7 @@ And then use the attribute <code>in-line-editable</code> in your templates like 
 </table>
 ```
 
-- Pending: Detailed description.
+- Pending: Detailed description. (Include modelUpdated callback and double click support)
 - Pending: Example with date-picker
 - Pending: Minimize
 - Pending: Dependencies

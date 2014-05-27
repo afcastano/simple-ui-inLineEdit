@@ -9,9 +9,13 @@
 <body>
 	<div ng-controller="inlineEditController">
 		<table>
+			<tr>
+				<th>Single click edit</th>
+				<th>Double click edit</th>
+			</tr>
 			<tr ng-repeat="item in items">
 				<td in-line-editable ng-model="item" model-att="name"></td>
-				<td in-line-editable ng-model="item" model-att="value" display-filter="currency" s-numbers-only="true"></td>
+				<td in-line-editable edit-on-doubleclick ng-model="item" model-att="value" display-filter="currency" s-numbers-only="true"></td>
 			</tr>
 		</table>
 		<input type="button" ng-click="addHundred()" value="+ 100"></input>
